@@ -882,7 +882,11 @@ public class MenuBar extends JMenuBar {
 		add(getJinhuo_Menu());
 		add(getXiaoshou_Menu());
 		add(getKucun_Menu());
-		
+		add(getXinxi_chaxunMenu());
+		add(getJiben_ziliaoMenu());
+		add(getXitong_weihuMenu());
+		add(getChuang_kouMenu());
+		add(getBang_zhuMenu());
 	}
 
 }
