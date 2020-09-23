@@ -50,5 +50,20 @@ public class JinHuoDan_IFrame extends JInternalFrame {
 	private JComboBox jsrComboBox = null;// “经手人”下拉列表
 
 	private Date jhsjDate = new Date();// 创建日期对象之“进货时间”
+	
+	public JinHuoDan_IFrame() {
+		super();
+		initialize();
+	}
+	
+	private void initialize() {
+		this.setSize(600, 320);
+		this.setIconifiable(true);
+		this.setResizable(true);
+		this.setMaximizable(true);
+		this.setTitle("进货单");
+		this.setClosable(true);// 设置进货单窗体可以关闭
+		this.setContentPane(getJContentPane());// 加载内容面板
+	}
 
 }
